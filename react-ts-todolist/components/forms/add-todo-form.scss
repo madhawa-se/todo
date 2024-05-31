@@ -1,0 +1,46 @@
+
+
+
+dialog::backdrop {
+    background-color: salmon;
+}
+
+form {
+    // background-color: #97001f;
+    // width: 30%;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 0 auto;
+
+    .field-row{
+        margin-bottom: 4px;
+        margin-top: 16px;
+    }
+
+    .field-error-msg {
+        background-color: #fcebea;
+        border-radius: 4px;
+        padding: 2px 12px;
+        color: #97001f;
+        font-size: 12px;
+      }
+
+    .field-label {
+        width: 33.333333%;
+    }
+
+    .field-value {
+        width: 66.666667%;
+
+        .input-field {
+            padding: 8px 16px;
+            background-color: #edf2f7;
+            width: 100%;
+        }
+
+        &.field-value-error{
+            border: 1px solid red;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.op {
+    button {
+        border-radius: 4px;
+        padding: 4px 8px;
+    }
+
+    .icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.todo-item {
+    background: white;
+    padding: 12px;
+    margin-bottom: 8px;
+
+    .status-view {
+        width: 25px;
+        height: 25px;
+        display: inline-block;
+        background: #ada9a9;
+        padding: 4px;
+        vertical-align: middle;
+        border-radius: 4px;
+        font-size: 13px;
+        text-align: center;
+
+        &.done {
+            background: #4fc38d;
+
+        }
+    }
+}
